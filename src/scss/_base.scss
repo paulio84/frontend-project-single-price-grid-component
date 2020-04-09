@@ -8,24 +8,10 @@ html {
 }
 
 body {
+  align-items: center;
+  display: flex;
   background: $grayishBlue;
   font-family: $fontFamily;
-}
-
-// reset
-a {
-  text-decoration: none;
-}
-
-body, h1, h2, p, ul {
-  margin: 0;
-  padding: 0;
-}
-
-h1, h2 {
-  font-size: 1rem;
-}
-
-ul {
-  list-style-type: none;
+  font-size: 1.6rem;
+  height: 100vh;
 }

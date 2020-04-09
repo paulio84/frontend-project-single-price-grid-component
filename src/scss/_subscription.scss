@@ -1,0 +1,26 @@
+.subscription {
+  background: darken($cyan, 5%);
+  color: $lightGray;
+
+  p {
+    color: darken($lightGray, 10%);
+    margin-bottom: 30px;
+  }
+  
+  .price {
+    align-items: center;
+    display: flex;
+    font-size: 3rem;
+    margin: 15px 0;
+    
+    span:first-child {
+      color: $lightGray;
+      font-weight: 700;
+    }
+
+    span:last-child {
+      font-size: 1.6rem;
+      margin-left: 15px;
+    }
+  }
+}

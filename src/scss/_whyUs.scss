@@ -1,0 +1,13 @@
+.why-us {
+  background: $cyan;
+  color: $lightGray;
+
+  ul {
+    color: darken($lightGray, 10%);
+    margin-top: 10px;
+
+    li {
+      line-height: 1.5;
+    }
+  }
+}
