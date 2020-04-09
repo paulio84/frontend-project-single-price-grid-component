@@ -4,4 +4,8 @@ header {
   h1 {
     color: $cyan;
   }
+
+  @media (min-width: $desktop) {
+    grid-column: 1 / 3;
+  }
 }

@@ -5,6 +5,10 @@
   p {
     color: darken($lightGray, 10%);
     margin-bottom: 30px;
+    
+    @media (min-width: $desktop) {
+      margin-bottom: 40px;
+    }
   }
   
   .price {
