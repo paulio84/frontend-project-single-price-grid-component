@@ -5,7 +5,7 @@ header {
     color: $cyan;
   }
 
-  @media (min-width: $desktop) {
+  @media (min-width: $tablet-sm) {
     grid-column: 1 / 3;
   }
 }

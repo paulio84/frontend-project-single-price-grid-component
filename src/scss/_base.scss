@@ -8,10 +8,9 @@ html {
 }
 
 body {
-  align-items: center;
+  background: lighten($grayishBlue, 20%);
   display: flex;
-  background: $grayishBlue;
   font-family: $fontFamily;
   font-size: 1.6rem;
-  height: 100vh;
+  justify-content: center;
 }

@@ -6,7 +6,7 @@
     color: darken($lightGray, 10%);
     margin-bottom: 30px;
     
-    @media (min-width: $desktop) {
+    @media (min-width: $tablet-sm) {
       margin-bottom: 40px;
     }
   }
